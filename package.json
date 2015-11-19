@@ -1,0 +1,50 @@
+{
+  "name": "between-range",
+  "version": "0.0.0",
+  "description": "check if a given number is between two numbers",
+  "main": "index.js",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js"
+  ],
+  "scripts": {
+    "test": "lab -v -c test.js",
+    "check-coverage": "lab -t 100 -r html -o coverage.html test.js",
+    "open-coverage": "open coverage.html",
+    "jshint": "jshint -c .jshintrc *.js",
+    "code-style": "jscs *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joaquimserafim/between-range.git"
+  },
+  "keywords": [
+    "between",
+    "numbers",
+    "values",
+    "range",
+    "int",
+    "integers",
+    "util"
+  ],
+  "author": "@joaquimserafim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaquimserafim/between-range/issues"
+  },
+  "homepage": "https://github.com/joaquimserafim/between-range",
+  "devDependencies": {
+    "code": "^1.4.0",
+    "jscs": "^2.5.1",
+    "jshint": "^2.8.0",
+    "lab": "^5.10.0",
+    "pre-commit": "^1.1.2"
+  },
+  "pre-commit": [
+    "jshint",
+    "code-style",
+    "test",
+    "check-coverage"
+  ]
+}

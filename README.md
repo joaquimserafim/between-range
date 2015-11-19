@@ -23,7 +23,7 @@ var inside = between(200, 200, 299) // should return true
 var notInside = between(101, 200, 299) // should return false
 ```
 
-```js
+
 ### Development
 
 ##### this projet has been set up with a precommit that forces you to follow a code style, no jshint issues and 100% of code coverage before commit

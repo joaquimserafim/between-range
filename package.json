@@ -1,6 +1,6 @@
 {
   "name": "between-range",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "check if a given number is between two numbers",
   "main": "index.js",
   "files": [

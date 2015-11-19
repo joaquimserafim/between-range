@@ -1,7 +1,7 @@
 'use strict'
 
-module.exports = betweenNumbers
+module.exports = betweenRange
 
-function betweenNumbers (value, n1, n2) {
+function betweenRange (value, n1, n2) {
   return n1 <= value && n2 >= value
 }

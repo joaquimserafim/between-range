@@ -1,6 +1,6 @@
 # between-range
 
-check if a given number is between two values
+check if a given number is inside of the range of two number and including
 
 <a href="https://nodei.co/npm/between-range/"><img src="https://nodei.co/npm/between-range.png?downloads=true"></a>
 
@@ -20,7 +20,7 @@ var between = require('between-range')
 ##### check if a number is inside of the passed range
 ```js
 var inside = between(200, 200, 299) // should return true
-var notInside = between(101, 200, 299) // should return false
+var notInside = between(300, 200, 299) // should return false
 ```
 
 
